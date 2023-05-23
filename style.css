@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    font-family: 'Open Sans', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#registration-form {
+    width:400px;
+    padding:20px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+#login-form{
+    width:400px;
+    padding:20px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    margin:20px 0; 
+    position:relative;
+}
+
+.input-group label {
+    display:inline-block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    display:block;
+    width:100%;
+    padding:10px;   
+}
+
+.error input {
+    border:3px red solid;
+}
+
+.success input {
+    border:3px green solid;
+}
+
+ .input-group i {
+    position:absolute;
+    right:10px;
+    top:35px;
+    visibility: hidden;
+ }
+
+ .input-group p {
+    font-size: 15px;
+    color:red;
+    visibility: hidden;
+ }
+
+ .error p {
+    visibility: visible;
+ }
+
+ .btn {
+    width:100%;
+    padding:10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: gray;
+    color:#fff;
+    text-transform: uppercase; 
+    border:none;
+ }
+ .ancor{
+    padding-top: 15px;
+    text-align: center;
+ }
+ 
